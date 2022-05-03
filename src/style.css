@@ -1,0 +1,503 @@
+/* apply natural box layout model to all elements, but also let components change */
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* element selectors by parent */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    min-width: 32rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+a img:hover {
+    border: 0.125rem solid orange;
+}
+
+:target {
+    display: block;
+    position: relative;
+    top: -8rem;
+    visibility: hidden;
+}
+
+#about-me:target {
+    display: block;
+    position: relative;
+    top: -10rem;
+    visibility: hidden;
+}
+
+/* classes grouped by use and then alphabetized */
+/* align classes */
+.ai-c {
+    align-items: center;
+}
+
+.va-m {
+    vertical-align: middle;
+}
+
+/* border classes */
+.b {
+    border: solid;
+}
+.b-c-black {
+    border-color: black;
+}
+
+.b-r-circ {
+    border-radius: 100%;
+}
+.b-r-5 {
+    border-radius: 5%;
+}
+
+.b-r-12 {
+    border-radius: 12%;
+}
+
+.b-r-25 {
+    border-radius: 25%;
+}
+
+.b-r-50 {
+    border-radius: 50%;
+}
+
+/* background classes */
+.bgc-amber-100 {
+    background-color: #ffe0b2;
+}
+
+.bgc-amber-400 {
+    background-color: #ffca28;
+}
+
+.bgc-blue-400 {
+    background-color: #42a5f5;
+}
+
+.bgc-blue-900 {
+    background-color: #0d47a1;
+}
+
+.bgc-boringblue {
+    background-color: rgb(37, 137, 189);
+}
+
+.bgc-lightgray {
+    background-color: lightgray;
+}
+
+.bgc-orange-50 {
+    background-color: #fff3e0;
+}
+
+.bgc-royalblue {
+    background-color: royalblue;
+}
+
+.bgc-steelblue {
+    background-color: steelblue;
+}
+
+/* box classes */
+.bs-bb {
+    box-sizing: border-box;
+}
+
+.bs-cb {
+    box-sizing: content-box;
+}
+
+/* color classes */
+.c-white {
+    color: white;
+}
+
+/* display classes */
+.d-b {
+    display: block;
+}
+
+.d-f {
+    display: flex;
+}
+
+/* height classes */
+.h-5 {
+    height: 5rem;
+}
+
+.h-13 {
+    height: 13rem;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.h-a {
+    height: auto;
+}
+
+/* font classes */
+.ff-impact {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.ff-segoe {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ff-verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fs-i {
+    font-style: italic;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fz-1 {
+    font-size: 1rem;
+}
+
+.fz-1p5 {
+    font-size: 1.5rem;
+}
+
+.fz-2 {
+    font-size: 2rem;
+}
+
+/* flex classes */
+.fg-1 {
+    flex-grow: 1;
+}
+
+.fx-1 {
+    flex: 1 0 0;
+}
+
+.fxd-c {
+    flex-direction: column;
+}
+
+.fx-w-nw {
+    flex-wrap: nowrap;
+}
+
+.fx-w {
+    flex-wrap: wrap;
+}
+
+/* gap classes */
+.g {
+    gap: 1.5rem;
+}
+
+/* justify classes */
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-se {
+    justify-content: space-evenly;
+}
+
+/* list classes */
+.lis-bull-circ {
+    list-style-type: circle;
+}
+
+.lis-n {
+    list-style: none;
+}
+
+/* margin classes */
+.m0 {
+    margin: 0;
+}
+
+.m0p5 {
+    margin: 0.5rem;
+}
+
+.m1 {
+    margin: 1rem;
+}
+
+.ma {
+    margin: auto;
+}
+
+.mal {
+    margin-left: auto;
+}
+
+.mar {
+    margin-right: auto;
+}
+
+.mb {
+    margin-bottom: 1.5rem;
+}
+
+.mb-0p5 {
+    margin-bottom: 0.5rem;
+}
+
+.ml {
+    margin-left: 1.5rem;
+}
+
+.ml-4 {
+    margin-left: 4rem;
+}
+
+.mt {
+    margin-top: 1.5rem;
+}
+
+.mt-0p5 {
+    margin-top: 0.5rem;
+}
+
+.mt-3 {
+    margin-top: 3rem;
+}
+
+/* min-max height classes */
+.max-h-8 {
+    max-height: 8rem;
+}
+
+/* min-max width classes */
+.max-w-2 {
+    max-width: 2rem;
+}
+
+.max-w-3 {
+    max-width: 3rem;
+}
+
+.max-w-4 {
+    max-width: 4rem;
+}
+
+.max-w-5 {
+    max-width: 5rem;
+}
+
+.max-w-15 {
+    max-width: 15rem;
+}
+
+.max-w-20 {
+    max-width: 20rem;
+}
+
+.max-w-22 {
+    max-width: 22rem;
+}
+
+.max-w-25 {
+    max-width: 25rem;
+}
+
+.max-w-60 {
+    max-width: 60rem;
+}
+
+.min-w-50 {
+    min-width: 50%;
+}
+
+/* padding classes */
+.p0 {
+    padding: 0;
+}
+
+.p0p5 {
+    padding: 0.5rem;
+}
+
+.p1 {
+    padding: 1rem;
+}
+
+.p {
+    padding: 1.5rem;
+}
+
+.p\+ {
+    padding: 3rem;
+}
+
+.pl {
+    padding-left: 1.5rem;
+}
+
+.pt-1 {
+    padding-top: 1rem;
+}
+
+.pt-6 {
+    padding-top: 6rem;
+}
+
+.pt-8 {
+    padding-top: 8rem;
+}
+
+.pt-9 {
+    padding-top: 9rem;
+}
+
+.pt-12 {
+    padding-top: 12rem;
+}
+
+.pt-24 {
+    padding-top: 24rem;
+}
+
+/* position classes */
+.pos-f-t {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* text classes */
+.t-i {
+    text-indent: 1rem;
+}
+
+.ta-c {
+    text-align: center;
+}
+
+.td-u {
+    text-decoration: underline;
+}
+
+/* width classes */
+.w-5 {
+    width: 5rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-100vw {
+    width: 100vw;
+}
+
+.w-fc {
+    width: fit-content;
+}
+
+.w-mc {
+    width: min-content;
+}
+
+/* media queries */
+/* for large browser size */
+@media (min-width: 768px) {
+    .d-f\@lrg {
+        display: flex;
+    }
+
+    .fg-1\@lrg {
+        flex-grow: 1;
+    }
+
+    .fg-4\@lrg {
+        flex-grow: 4;
+    }
+
+    .ml\@lrg {
+        margin-left: 1.5rem;
+    }
+
+    .pt-3\@lrg {
+        padding-top: 3rem;
+    }
+
+    .pt-5\@lrg {
+        padding-top: 5rem;
+    }
+
+    pt-12\@lrg {
+        padding-top: 12rem;
+    }
+
+    .pt-18\@lrg {
+        padding-top: 18rem;
+    }
+
+    .pt-20\@lrg {
+        padding-top: 20rem;
+    }
+
+    .pt-24\@lrg {
+        padding-top: 24rem;
+    }
+}
+
+/* for small browser size */
+@media (max-width: 767px) {
+    :target {
+        display: block;
+        position: relative;
+        top: -13rem;
+        visibility: hidden;
+    }
+
+    #about-me:target {
+        display: block;
+        position: relative;
+        top: -15rem;
+        visibility: hidden;
+    }
+
+    .pt-8\@sm {
+        padding-top: 8rem;
+    }
+
+    .pt-13\@sm {
+        padding-top: 13rem;
+    }
+
+    .mb-0p5\@sm {
+        margin-bottom: 0.5rem;
+    }
+
+    .mt\@sm {
+        margin-top: 1rem;
+    }
+
+    .ta-c\@sm {
+        text-align: center;
+    }
+}
