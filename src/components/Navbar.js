@@ -10,7 +10,7 @@ function Navbar() {
                 </button> */}
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">
+                        <a class="nav-link active" aria-current="page" href="#about-me">
                             About Me
                         </a>
                         <a class="nav-link" href="#">
@@ -18,6 +18,9 @@ function Navbar() {
                         </a>
                         <a class="nav-link" href="#">
                             My Links
+                        </a>
+                        <a class="nav-link" href="%PUBLIC_URL%/pdf/resume_Aidan_Chamberlain.pdf" target="_blank">
+                            My Resume
                         </a>
                     </div>
                 </div>
