@@ -1,11 +1,15 @@
 // import "./App.css";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 
 function App() {
-    const [page, setPage] = useState(["about-me"]);
+    const [page, setPage] = useState([]);
+
+    useEffect(() => {
+        setPage("about-me");
+    }, []);
 
     const handlePage = (page) => {
         const newPage = page;
