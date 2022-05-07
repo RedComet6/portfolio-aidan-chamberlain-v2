@@ -87,6 +87,10 @@ a img:hover {
     background-color: #ffca28;
 }
 
+.bgc-black {
+    background-color: black;
+}
+
 .bgc-blue-400 {
     background-color: #42a5f5;
 }
@@ -125,6 +129,10 @@ a img:hover {
 }
 
 /* color classes */
+.c-black {
+    color: black;
+}
+
 .c-white {
     color: white;
 }
@@ -145,6 +153,18 @@ a img:hover {
 
 .h-13 {
     height: 13rem;
+}
+
+.h-20 {
+    height: 20rem;
+}
+
+.h-25 {
+    height: 25rem;
+}
+
+.h-80vh {
+    height: 80vh;
 }
 
 .h-100vh {
@@ -215,6 +235,10 @@ a img:hover {
 }
 
 /* justify classes */
+.jc-c {
+    justify-content: center;
+}
+
 .jc-sb {
     justify-content: space-between;
 }

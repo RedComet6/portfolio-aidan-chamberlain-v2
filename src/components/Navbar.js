@@ -4,13 +4,13 @@ import "../style.css";
 function Navbar(props) {
     // const changePage = () => {};
     return (
-        <nav className="navbar navbar-expand-md navbar-light bg-light">
+        <nav className="navbar navbar-expand-md bgc-steelblue c-white">
             <div className="container-fluid">
                 <div>
                     <h2>Aidan Chamberlain</h2>
                     <h4>
                         Email:{" "}
-                        <a href="mailto: achamberlain.dev@gmail.com" target="_blank" rel="noreferrer">
+                        <a className="c-white" href="mailto: achamberlain.dev@gmail.com" target="_blank" rel="noreferrer">
                             achamberlain.dev@gmail.com
                         </a>
                     </h4>
@@ -20,16 +20,16 @@ function Navbar(props) {
                 </button> */}
                 <div id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <div className="nav-link active" aria-current="page" onClick={() => props.onClick("about-me")}>
+                        <div className="nav-link c-white" aria-current="page" onClick={() => props.onClick("about-me")}>
                             About Me
                         </div>
-                        <div className="nav-link" onClick={() => props.onClick("my-works")}>
+                        <div className="nav-link c-white" onClick={() => props.onClick("my-works")}>
                             My Works
                         </div>
-                        <a className="nav-link" href="#my-links">
+                        <a className="nav-link c-white" href="#my-links">
                             My Links
                         </a>
-                        <a className="nav-link" href="./pdf/resume_Aidan_Chamberlain.pdf" target="_blank">
+                        <a className="nav-link c-white" href="./pdf/resume_Aidan_Chamberlain.pdf" target="_blank">
                             My Resume
                         </a>
                     </div>

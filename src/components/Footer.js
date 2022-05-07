@@ -3,7 +3,7 @@ import "../style.css";
 
 function Footer() {
     return (
-        <footer className="ai-c bgc-blue-900 p w-100 ta-c@sm d-f@lrg">
+        <footer className="ai-c bgc-steelblue p w-100 ta-c@sm d-f@lrg">
             {/* anchor for navigation put at top of footer to assist in aligning when jumping */}
             <div id="my-links"></div>
             <div className="c-white fz-2">My Links:</div>
