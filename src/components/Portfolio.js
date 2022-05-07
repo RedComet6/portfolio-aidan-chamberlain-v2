@@ -92,13 +92,3 @@ function Portfolio(props) {
     }
 }
 export default Portfolio;
-
-<div class="fx-1 m1 ta-c">
-    <p class="fs-i mt td-u">Technology Blog</p>
-    <a href="https://chamberlain-blog-site.herokuapp.com/" target="_blank">
-        <img class="b b-c-black b-r-12 h-13 mt-0p5" src="./assets/images/tech-blog-aidan-chamberlain.png" alt="Screenshot of Tech Blog App" />
-    </a>
-    <a href="https://github.com/RedComet6/technology-blog" class="d-b" target="_blank">
-        ⏎ Go to the GitHub Repo
-    </a>
-</div>;
