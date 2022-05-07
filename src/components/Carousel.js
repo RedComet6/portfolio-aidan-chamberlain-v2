@@ -30,10 +30,24 @@ function Carousel() {
                     <p>Example of social network API (MongoDB)</p>
                     <a href="https://drive.google.com/file/d/1veM29Xn7lmnf8chnFY2IN_hcuNZFKQCe/view?usp=sharing" target="_blank" rel="noreferrer">
                         <div>
-                            <img src="./img/yakker-package.png" className="b b-c-black bgc-steelblue mal mar mt d-block h-20" alt="logo for the petrol pirate application" />
+                            <img src="./img/yakker-package.png" className="b b-c-black bgc-steelblue mal mar mt d-block h-20" alt="screenshot of Yakker package.json" />
                         </div>
                     </a>
                     <a href="https://github.com/RedComet6/yakker" target="_blank" rel="noreferrer">
+                        {" "}
+                        ⏎ Go to the GitHub Repo
+                    </a>
+                </div>
+
+                <div className="carousel-item ta-c">
+                    <h3 className="fs-i mt-3 td-u">Just Another Text Editor</h3>
+                    <p>Example of a Progressive Web App with IndexedDB</p>
+                    <a href="https://just-another-text-editor-arc.herokuapp.com/" target="_blank" rel="noreferrer">
+                        <div>
+                            <img src="./img/jate-screenshot.png" className="b b-c-black bgc-steelblue mal mar mt d-block h-20" alt="screenshot of JATE main view" />
+                        </div>
+                    </a>
+                    <a href="https://github.com/RedComet6/just-another-text-editor" target="_blank" rel="noreferrer">
                         {" "}
                         ⏎ Go to the GitHub Repo
                     </a>
