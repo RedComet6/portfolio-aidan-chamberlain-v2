@@ -8,7 +8,7 @@ function AboutMe() {
             <div id="about-me"></div>
             {/* division to group all text separate from personal photo to allow flex  */}
             <div>
-                <h2 className="fz-2 td-u">About Me:</h2>
+                {/* <h2 className="fz-2 td-u">About Me:</h2> */}
                 {/* previous employment and education info  */}
                 <p className="p t-i"> I graduated from Purdue University in May 2016 with a Bachelor of Technology in Computer Graphics. I began my career working in the internal design department of Archer Daniels Midland Company; a company that makes food, farm feed, and nutraceutical products. I performed mechanical, electrical, and plumbing (MEP) engineering design for projects all over the world including:</p>
                 {/* list of example locations I did work in  */}
@@ -44,7 +44,8 @@ function AboutMe() {
                     and{" "}
                     <a href="https://www.linkedin.com/in/aidan-chamberlain-776b8b90" target="_blank" rel="noreferrer">
                         LinkedIn
-                    </a>{" "}
+                    </a>
+                    . I appreciate your time taken to look through my corner of the internet, thank you!
                 </p>
             </div>
             {/* image placed in division to facilitate styling, flex  */}

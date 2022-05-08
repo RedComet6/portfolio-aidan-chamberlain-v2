@@ -15,7 +15,7 @@ function Carousel() {
                     <p>App where users sign up, submit locations with low gas prices, and see submitted locations from other users (MySQL)</p>
                     <a href="https://hbs-project-two.herokuapp.com/" target="_blank" rel="noreferrer">
                         <div>
-                            <img src="./img/petrol-pirate-logo.gif" className="b b-c-black bgc-steelblue mal mar mt d-block h-20" alt="logo for the petrol pirate application" />
+                            <img src="./img/petrol-pirate-logo.gif" className="b b-c-steelblue bgc-steelblue mal mar mt d-block h-20" alt="logo for the petrol pirate application" />
                         </div>
                     </a>
                     <a href="https://github.com/TeamHBs/petrol-pirate" target="_blank" rel="noreferrer">
@@ -30,7 +30,7 @@ function Carousel() {
                     <p>Example of social network API (MongoDB)</p>
                     <a href="https://drive.google.com/file/d/1veM29Xn7lmnf8chnFY2IN_hcuNZFKQCe/view?usp=sharing" target="_blank" rel="noreferrer">
                         <div>
-                            <img src="./img/yakker-package.png" className="b b-c-black bgc-steelblue mal mar mt d-block h-20" alt="screenshot of Yakker package.json" />
+                            <img src="./img/yakker-package.png" className="b b-c-steelblue bgc-steelblue mal mar mt d-block h-20" alt="screenshot of Yakker package.json" />
                         </div>
                     </a>
                     <a href="https://github.com/RedComet6/yakker" target="_blank" rel="noreferrer">
@@ -44,7 +44,7 @@ function Carousel() {
                     <p>Example of a Progressive Web App with IndexedDB</p>
                     <a href="https://just-another-text-editor-arc.herokuapp.com/" target="_blank" rel="noreferrer">
                         <div>
-                            <img src="./img/jate-screenshot.png" className="b b-c-black bgc-steelblue mal mar mt d-block h-20" alt="screenshot of JATE main view" />
+                            <img src="./img/jate-screenshot.png" className="b b-c-steelblue bgc-steelblue mal mar mt d-block h-20" alt="screenshot of JATE main view" />
                         </div>
                     </a>
                     <a href="https://github.com/RedComet6/just-another-text-editor" target="_blank" rel="noreferrer">
