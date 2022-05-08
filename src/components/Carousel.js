@@ -12,7 +12,7 @@ function Carousel() {
             <div className="carousel-inner">
                 <div className="carousel-item active ta-c">
                     <h3 className="fs-i mt-3 td-u">Petrol Pirate</h3>
-                    <p>App where users sign up, submit locations with low gas prices, and see submitted locations from other users (MySQL)</p>
+                    <p>App where users sign up, submit locations with low gas prices, and see submitted locations from other users (MySQL Database)</p>
                     <a href="https://hbs-project-two.herokuapp.com/" target="_blank" rel="noreferrer">
                         <div>
                             <img src="./img/petrol-pirate-logo.gif" className="b b-c-steelblue bgc-steelblue mal mar mt d-block h-20" alt="logo for the petrol pirate application" />
@@ -27,7 +27,7 @@ function Carousel() {
 
                 <div className="carousel-item ta-c">
                     <h3 className="fs-i mt-3 td-u">Yakker</h3>
-                    <p>Example of social network API (MongoDB)</p>
+                    <p>Example of social network API (MongoDB Database)</p>
                     <a href="https://drive.google.com/file/d/1veM29Xn7lmnf8chnFY2IN_hcuNZFKQCe/view?usp=sharing" target="_blank" rel="noreferrer">
                         <div>
                             <img src="./img/yakker-package.png" className="b b-c-steelblue bgc-steelblue mal mar mt d-block h-20" alt="screenshot of Yakker package.json" />
@@ -41,13 +41,41 @@ function Carousel() {
 
                 <div className="carousel-item ta-c">
                     <h3 className="fs-i mt-3 td-u">Just Another Text Editor</h3>
-                    <p>Example of a Progressive Web App with IndexedDB</p>
+                    <p>Example of a text editor Progressive Web App (IndexedDB Database)</p>
                     <a href="https://just-another-text-editor-arc.herokuapp.com/" target="_blank" rel="noreferrer">
                         <div>
                             <img src="./img/jate-screenshot.png" className="b b-c-steelblue bgc-steelblue mal mar mt d-block h-20" alt="screenshot of JATE main view" />
                         </div>
                     </a>
                     <a href="https://github.com/RedComet6/just-another-text-editor" target="_blank" rel="noreferrer">
+                        {" "}
+                        ⏎ Go to the GitHub Repo
+                    </a>
+                </div>
+
+                <div className="carousel-item ta-c">
+                    <h3 className="fs-i mt-3 td-u">E-Commerce Backend</h3>
+                    <p>Example of the backend of an E-Commerce site (MySQL Database)</p>
+                    <a href="https://drive.google.com/file/d/1xh6pfz7Ra1NyIcB259eL292xy7u0GJ5D/view?usp=sharing" target="_blank" rel="noreferrer">
+                        <div>
+                            <img src="./img/aidan-chamberlain-backend-ecommerce.png" className="b b-c-steelblue bgc-steelblue mal mar mt d-block h-20" alt="screenshot of backend ecommerce example response" />
+                        </div>
+                    </a>
+                    <a href="https://github.com/RedComet6/back-end-Ecommerce" target="_blank" rel="noreferrer">
+                        {" "}
+                        ⏎ Go to the GitHub Repo
+                    </a>
+                </div>
+
+                <div className="carousel-item ta-c">
+                    <h3 className="fs-i mt-3 td-u">Technology Blog</h3>
+                    <p>Example of a blog site (MySQL Database)</p>
+                    <a href="https://chamberlain-blog-site.herokuapp.com/" target="_blank" rel="noreferrer">
+                        <div>
+                            <img src="./img/tech-blog-aidan-chamberlain.png" className="b b-c-steelblue bgc-steelblue mal mar mt d-block h-20" alt="screenshot of backend ecommerce example response" />
+                        </div>
+                    </a>
+                    <a href="https://github.com/RedComet6/technology-blog" target="_blank" rel="noreferrer">
                         {" "}
                         ⏎ Go to the GitHub Repo
                     </a>
