@@ -41,7 +41,7 @@ function Carousel() {
 
                 <div className="carousel-item ta-c">
                     <h3 className="fs-i mt-3 td-u">Just Another Text Editor</h3>
-                    <p>Example of a text editor Progressive Web App (IndexedDB Database)</p>
+                    <p>A text editor Progressive Web App (IndexedDB Database)</p>
                     <a href="https://just-another-text-editor-arc.herokuapp.com/" target="_blank" rel="noreferrer">
                         <div>
                             <img src="./img/jate-screenshot.png" className="b b-c-steelblue bgc-steelblue mal mar mt d-block h-20" alt="screenshot of JATE main view" />
@@ -72,10 +72,38 @@ function Carousel() {
                     <p>Example of a blog site (MySQL Database)</p>
                     <a href="https://chamberlain-blog-site.herokuapp.com/" target="_blank" rel="noreferrer">
                         <div>
-                            <img src="./img/tech-blog-aidan-chamberlain.png" className="b b-c-steelblue bgc-steelblue mal mar mt d-block h-20" alt="screenshot of backend ecommerce example response" />
+                            <img src="./img/tech-blog-aidan-chamberlain.png" className="b b-c-steelblue bgc-steelblue mal mar mt d-block h-20" alt="screenshot of the tech blog homepage" />
                         </div>
                     </a>
                     <a href="https://github.com/RedComet6/technology-blog" target="_blank" rel="noreferrer">
+                        {" "}
+                        ⏎ Go to the GitHub Repo
+                    </a>
+                </div>
+
+                <div className="carousel-item ta-c">
+                    <h3 className="fs-i mt-3 td-u">Employee Tracker</h3>
+                    <p>A command line interface app that tracks the organization of a company (MySQL Database)</p>
+                    <a href="https://drive.google.com/file/d/1Jtk7xf51-DPdPhR_VmKMc5q-KDxnts_M/view?usp=sharing" target="_blank" rel="noreferrer">
+                        <div>
+                            <img src="./img/screenshot-employee-tracker-aidan-chamberlain.png" className="b b-c-steelblue bgc-steelblue mal mar mt d-block h-20" alt="screenshot of the command line displaying employee information" />
+                        </div>
+                    </a>
+                    <a href="https://github.com/RedComet6/employee-tracker" target="_blank" rel="noreferrer">
+                        {" "}
+                        ⏎ Go to the GitHub Repo
+                    </a>
+                </div>
+
+                <div className="carousel-item ta-c">
+                    <h3 className="fs-i mt-3 td-u">Note Taker</h3>
+                    <p>A note taking app that uses a .JSON file as the database (File System Database)</p>
+                    <a href="https://aidan-chamberlain-note-taker.herokuapp.com/" target="_blank" rel="noreferrer">
+                        <div>
+                            <img src="./img/aidan-chamberlain-note-taker-screenshot.png" className="b b-c-steelblue bgc-steelblue mal mar mt d-block h-20" alt="screenshot of the note taker with some example notes" />
+                        </div>
+                    </a>
+                    <a href="https://github.com/RedComet6/note-taker" target="_blank" rel="noreferrer">
                         {" "}
                         ⏎ Go to the GitHub Repo
                     </a>
