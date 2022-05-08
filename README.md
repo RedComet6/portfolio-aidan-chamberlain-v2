@@ -28,8 +28,8 @@ If you wish to contribute to my content, please contact me at asunshine99@gmail.
 
 ## Links to Application
 
--   Here is the repo: [RedComet6/portfolio-aidan-chamberlain-v2](https://github.com/RedComet6/portfolio-aidan-chamberlain-v2)
--   Here is the deployed page: [RedComet6 portfolio-aidan-chamberlain-v2 Pages](https://github.com/RedComet6/portfolio-aidan-chamberlain-v2/settings/pages)
+-   Here is the repo: [https://github.com/RedComet6/portfolio-aidan-chamberlain-v2](https://github.com/RedComet6/portfolio-aidan-chamberlain-v2)
+-   Here is the Heroku deployed app: [https://portfolio-aidan-chamberlain.herokuapp.com/](https://portfolio-aidan-chamberlain.herokuapp.com/)
 
 ## Questions
 
