@@ -5,7 +5,6 @@
 -   [Description](./README.md#description)
 -   [License](./README.md#license)
 -   [Contributing](./README.md#contributing)
--   [Screenshot](./README.md#screenshot)
 -   [Links to Application](./README.md#links-to-application)
 -   [Questions](./README.md#questions)
 
@@ -21,10 +20,6 @@ This software is licensed to MIT, for more information you may visit this link:
 ## Contributing
 
 If you wish to contribute to my content, please contact me at asunshine99@gmail.com.
-
-## Screenshot
-
-![](./public/img/portfolioscreenshot.png)
 
 ## Links to Application
 
