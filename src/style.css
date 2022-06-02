@@ -422,6 +422,14 @@ a img:hover {
     padding-top: 1rem;
 }
 
+.pt-4 {
+    padding-top: 4rem;
+}
+
+.pt-5 {
+    padding-top: 5rem;
+}
+
 .pt-6 {
     padding-top: 6rem;
 }
@@ -440,6 +448,11 @@ a img:hover {
 
 .pt-24 {
     padding-top: 24rem;
+}
+
+.py {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 /* position classes */

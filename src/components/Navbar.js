@@ -25,21 +25,19 @@ function Navbar(props) {
                         <div className="nav-link c-coral" onClick={() => props.onClick("my-works")}>
                             My Works
                         </div>
-                        {/* link to view/download my pdf resume */}
-                        <a className="nav-link c-coral" href="./pdf/resume_Aidan_Chamberlain.pdf" target="_blank">
-                            My Resume
-                        </a>
                         {/* div with onClick handling page change to About Me */}
                         <div className="nav-link c-coral" aria-current="page" onClick={() => props.onClick("about-me")}>
                             About Me
                         </div>
-                        {/* link to My Links at bottom of site */}
-                        {/* <a className="nav-link c-coral" href="#my-links">
-                            My Links
-                        </a> */}
+                        {/* link to view/download my pdf resume */}
+                        <a className="nav-link c-coral" href="./pdf/resume_Aidan_Chamberlain.pdf" target="_blank">
+                            My Resume
+                        </a>
+                        {/* link to my Github account */}
                         <a className="nav-link c-coral" href="https://github.com/RedComet6" target="_blank" rel="noreferrer">
                             GitHub
                         </a>
+                        {/* link to my LinkedIn Account */}
                         <a className="nav-link c-coral" href="https://www.linkedin.com/in/aidan-chamberlain-776b8b90" target="_blank" rel="noreferrer">
                             LinkedIn
                         </a>
