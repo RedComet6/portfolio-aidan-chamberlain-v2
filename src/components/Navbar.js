@@ -21,14 +21,14 @@ function Navbar(props) {
                 <div id="navbarNavAltMarkup">
                     {/* container for links */}
                     <div className="navbar-nav">
-                        {/* link to view/download my pdf resume */}
-                        <a className="nav-link c-coral" href="./pdf/resume_Aidan_Chamberlain.pdf" target="_blank">
-                            My Resume
-                        </a>
                         {/* div with onClick handling page change to My Works */}
                         <div className="nav-link c-coral" onClick={() => props.onClick("my-works")}>
                             My Works
                         </div>
+                        {/* link to view/download my pdf resume */}
+                        <a className="nav-link c-coral" href="./pdf/resume_Aidan_Chamberlain.pdf" target="_blank">
+                            My Resume
+                        </a>
                         {/* div with onClick handling page change to About Me */}
                         <div className="nav-link c-coral" aria-current="page" onClick={() => props.onClick("about-me")}>
                             About Me
