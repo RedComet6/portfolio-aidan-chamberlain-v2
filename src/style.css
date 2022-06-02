@@ -16,19 +16,20 @@ body {
 }
 
 a {
+    color: coral;
     text-decoration: none;
 }
 
 a:hover {
-    color: orange;
+    color: lightseagreen;
 }
 
 a img:hover {
-    border: 0.125rem solid orange;
+    border: 0.2rem solid lightseagreen;
 }
 
 .nav-link:hover {
-    color: orange;
+    color: lightseagreen;
 }
 
 :target {
@@ -59,12 +60,25 @@ a img:hover {
 .b {
     border: solid;
 }
+
+.b-b {
+    border-bottom: 0.25rem solid coral;
+}
+
 .b-c-black {
     border-color: black;
 }
 
+.b-c-coral {
+    border-color: coral;
+}
+
 .b-c-steelblue {
     border-color: steelblue;
+}
+
+.b-c-white {
+    border-color: white;
 }
 
 .b-r-circ {
@@ -111,6 +125,10 @@ a img:hover {
     background-color: rgb(37, 137, 189);
 }
 
+.bgc-coral {
+    background-color: coral;
+}
+
 .bgc-lightgray {
     background-color: lightgray;
 }
@@ -121,6 +139,10 @@ a img:hover {
 
 .bgc-royalblue {
     background-color: royalblue;
+}
+
+.bgc-slate {
+    background-color: #0a192f;
 }
 
 .bgc-steelblue {
@@ -139,6 +161,10 @@ a img:hover {
 /* color classes */
 .c-black {
     color: black;
+}
+
+.c-coral {
+    color: coral;
 }
 
 .c-white {
@@ -173,6 +199,10 @@ a img:hover {
 
 .h-80vh {
     height: 80vh;
+}
+
+.h-90vh {
+    height: 90vh;
 }
 
 .h-100vh {

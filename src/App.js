@@ -1,6 +1,6 @@
 // import "./App.css";
 import React, { useState, useEffect } from "react";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 
@@ -11,7 +11,7 @@ function App() {
 
     // initialize page to be about-me on first load
     useEffect(() => {
-        setPage("about-me");
+        setPage("carousel");
     }, []);
 
     // updates page state on choosing a new page in navigation
@@ -25,7 +25,7 @@ function App() {
         <div>
             <Navbar onClick={handlePage} />
             <Portfolio page={page} />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }

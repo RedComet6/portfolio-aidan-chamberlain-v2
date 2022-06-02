@@ -6,7 +6,7 @@ function AboutMe() {
     // returns contents of AboutMe tag element
     return (
         // about me container
-        <section className="ai-c bgc-orange-50 d-b p w-100 d-f@lrg">
+        <section className="ai-c bgc-slate d-b p w-100 d-f@lrg">
             {/* div to group elements efficiently when using display flex  */}
             <div>
                 {/* my previous employment and education info  */}
